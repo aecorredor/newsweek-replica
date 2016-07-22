@@ -4,7 +4,9 @@
     <title>Newsweek - News, Analysis, and more</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -22,7 +24,7 @@
           <div class="container-fluid fluid-1">
             <div class="navbar-header">
               <div class="search-toggle">
-                <li class="hidden-xs hidden-lg small-search"><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+                <div class="hidden-xs hidden-lg small-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-target-content" aria-expanded="false">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -70,12 +72,51 @@
         </nav>
 
       <div class="main-content row">
+        <!-- left main content -->
         <div class="sub-main-content-1 col-md-9">
-          sub main content 1
+          <div class="artic">
+            <img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/desktop/public/2016/07/21/2016-07-22t022617z1265526929ht1ec7m06rbemrtrmadp3usa-election-republicans.JPG" width="100%">
+            <h3><a href="#">opinion</a></h3>
+            <h1><a href="#">trump's speech: will it even matter?</a></h1>
+            <p>
+              Trump's RNC speech may help him in the polls. But conventions don't
+              matter as much as they once did.
+            </p>
+            <li class="blue-bullet"><a href="#">Inside ivanka trump brand</a></li>
+          </div>
+
+          <div class="secondary-articles row">
+            <div class="sec-article-1 col-xs-12 col-sm-6">
+              <div class="artic secondary">
+                <img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/mobile/public/2016/07/22/jon-stewart_0.png" width="100%">
+                <h3><a href="#">culture</a></h3>
+                <h1><a href="#">Jon Stewart Returns to Slay Republicans’ Love of Trump</a></h1>
+                <p>
+                  This is what we've been missing this election season.
+                </p>
+                <li class="blue-bullet"><a href="#">Beyond Trump: Laying a Claim to the 2020 Nomination</a></li>
+              </div>
+            </div>
+
+            <div class="sec-article-2 col-xs-12 col-sm-6">
+              <div class="artic secondary">
+                <img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/mobile/public/profile/pennfertility15_17r.jpg" width="100%">
+                <h3><a id="sponsor" href="#">sponsor insight</a></h3>
+                <h1><a href="#">The Best of The USA, Asia and The Middle East’s Fertility Treatment 2016</a></h1>
+                <p>
+                  Trump's RNC speech may help him in the polls. But conventions don't
+                  matter as much as they once did.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix visible-xs"></div>
         </div>
+        <!-- right main content -->
         <div class="sub-main-content-2 col-sm-12 col-md-3">
           sub main content 2
         </div>
+
       </div>
 
       <div class="secondary-content-1 row">
