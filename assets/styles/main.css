@@ -265,11 +265,15 @@ SECONDARY ARTICLES START
 
 .sec-article-1 {
   padding: 0;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .sec-article-2 {
   padding: 0;
   border-left: 1px solid rgb(221, 221, 221);
+  padding-bottom: 20px;
+  padding-left: 15px;
 }
 
 .secondary img {
@@ -439,10 +443,21 @@ MEDIA QUERIES
   .small-search {
     padding-top: 14px;
   }
+  .sec-article-2 {
+    padding-right: 15px;
+  }
 }
 
 @media (max-width: 768px) {
   body {
     font-size: 19px;
+  }
+
+  .sec-article-1 {
+    padding: 0;
+  }
+
+  .sec-article-2 {
+    padding-left: 0;
   }
 }
